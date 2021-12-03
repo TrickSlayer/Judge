@@ -1,0 +1,73 @@
+.body .movies{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    min-height: 300px;
+}
+
+.body .movies .movie{
+    margin: 10px 10px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.body .movies .movie .image{
+    width: 200px;
+    height: 300px;
+}
+
+.body .movies .movie .content{
+    display: none;
+    color: whitesmoke;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 20px;
+    top: -248px;
+    height: 248px;
+    overflow: hidden;
+}
+
+.body .movies .movie .content h4{
+    text-decoration: none;
+}
+
+.body .movies .movie:hover .content{
+    display: block;
+}
+
+.glyphicon-star{
+    color: gold;
+}
+
+.button{
+    justify-content: center;
+}
+
+.button span{
+    cursor: pointer;
+}
+
+.body .movies .button-block{
+    margin: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.body .movies .button-block .btn{
+    width: 80px;
+}
+
+.table-block{
+    min-height: 400px;
+}
+
+.table{
+    margin-top: 20px;
+    border: whitesmoke 2px solid;
+}
+
+.chosen{
+    width: 200px;
+}

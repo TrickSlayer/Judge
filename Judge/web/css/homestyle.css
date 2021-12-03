@@ -1,0 +1,143 @@
+.slideblock{
+    width: 500px;
+    height: 700px;
+    margin-right: 10px !important;
+}
+
+.slideblock img{
+    width: 500px;
+    height: 700px !important;
+}
+
+.top{
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.top-movies{
+    border-left: gold 1px solid;
+    padding-left: 10px;
+    width: calc(100%-500px);
+}
+
+.top-movies .movies{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 605px;
+}
+
+.top-movies .movie{
+    background-color: grey;
+    width: 585px;
+    height: 100px;
+    display: block;
+    overflow: hidden;
+    border-radius: 15px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.top-movies .movie:hover{
+    background-color: #666666;
+}
+
+.top-movies .movie .item{
+    border-left: 12px gold solid;
+    height: 100%;
+}
+
+.top-movies .movie .item .name{
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.top-movies .movie .item .score{
+    padding-left: 20px;
+    color: gold;
+}
+
+.top-movies h2{
+    font-size: 50px !important;
+}
+
+/**{}*/
+
+.body .topTime .movies{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 20px;
+    min-height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.body .topTime .movies .movie{
+    margin: 10px 10px;
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.body .topTime .movies .movie .image{
+    width: 200px;
+    height: 300px;
+}
+
+.body .topTime .movies .movie .content{
+    display: none;
+    color: whitesmoke;
+    position: relative;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 20px;
+    top: -248px;
+    height: 248px;
+    overflow: hidden;
+}
+
+.body .topTime .movies .movie .content h4{
+    text-decoration: none;
+}
+
+.body .topTime .movies .movie:hover .content{
+    display: block;
+}
+
+.glyphicon-star{
+    color: gold;
+}
+
+@media screen and (max-width: 1180px){
+    #btn-next{
+        left: 478px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    .top-movies{
+        display: none;
+    }
+
+    #btn-next{
+        left: 575px;
+    }
+
+    .slide-block{
+        width: 100%;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        width: 760px;
+        margin: 0px auto;
+        padding: 0px;
+    }
+}

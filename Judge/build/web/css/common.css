@@ -1,0 +1,46 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    color: whitesmoke;
+}
+
+body:nth-child(2){
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    height:100%;
+    background-color: initial;
+}
+
+h2, .body h2{
+    color: gold;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: gold 4px solid;
+}
+
+h5{
+    text-align: center;
+}
+
+.body{
+    margin-top: 20px;
+    background-color: #333333;
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    min-height: 430px;
+}
+
+.erro{
+    color: red;
+}
+
+.Info{
+    display: none;
+}
